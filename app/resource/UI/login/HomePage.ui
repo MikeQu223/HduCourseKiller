@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HomePage</class>
+ <widget class="QWidget" name="HomePage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>761</width>
+    <height>488</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(246, 246, 246);
+padding: 0px;
+margin: 0px</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <property name="leftMargin">
+    <number>5</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="Line" name="line">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(229, 229, 229);</string>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;h1 style=&quot; margin-top:18px; margin-bottom:20px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:24px; font-weight:400;line-height:1;color:#585c60&quot;&gt;使用说明&lt;/span&gt;&lt;/h1&gt;&lt;h3 style=&quot; margin-top:0px; margin-bottom:20px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20px; font-weight:400;padding: 17px;background: #e8e8e8;border-radius: 2px;&quot;&gt;本软件的功能是什么？&lt;/span&gt;&lt;/h3&gt;&lt;p style=&quot;opacity: .7;line-height: 28px;font-weight: 400;color: #585c60;&quot;&gt;本软件用于选课、抢课、捡漏，适配杭电教务系统。支持搜索课程、自动抢课、记住用户配置等功能。&lt;/p&gt;&lt;h3 style=&quot; margin-top:0px; margin-bottom:20px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20px; font-weight:400;padding: 17px;background: #e8e8e8;border-radius: 2px;&quot;&gt;何如使用本软件？&lt;/span&gt;&lt;/h3&gt;&lt;p style=&quot;opacity: .7;line-height: 28px;font-weight: 400;color: #585c60;&quot;&gt;在&lt;span style=&quot; font-weight:700;&quot;&gt;待选课程&lt;/span&gt;中可以查看并管理已添加至待选课列表的课程清单；&lt;/p&gt;&lt;p style=&quot;opacity: .7;line-height: 28px;font-weight: 400;color: #585c60;&quot;&gt;在&lt;span style=&quot; font-weight:700;&quot;&gt;添加课程&lt;/span&gt;中可以搜索并添加指定课程至待选课程清单；&lt;/p&gt;&lt;p style=&quot;opacity: .7;line-height: 28px;font-weight: 400;color: #585c60;&quot;&gt;在&lt;span style=&quot; font-weight:700;&quot;&gt;运行抢课&lt;/span&gt;中可以进行抢课并查看输出信息；&lt;/p&gt;&lt;p style=&quot;opacity: .7;line-height: 28px;font-weight: 400;color: #585c60;&quot;&gt;在&lt;span style=&quot; font-weight:700;&quot;&gt;设置中心&lt;/span&gt;中可以修改相关配置。&lt;/p&gt;&lt;p style=&quot;opacity: .7;line-height: 28px;font-weight: 400;color: #585c60;&quot;&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;注：为防止给学校服务器造成较大压力，部分设置禁止修改！&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::AutoText</enum>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="margin">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="Line" name="line_2">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(229, 229, 229);</string>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

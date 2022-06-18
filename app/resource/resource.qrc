@@ -1,0 +1,40 @@
+<RCC>
+  <qresource prefix="images">
+    <file>images/login/cover.jpg</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>icons/app/logo.ico</file>
+    <file>icons/run_page/start.png</file>
+    <file>icons/run_page/stop.png</file>
+    <file>icons/add_page/searching.png</file>
+    <file>icons/add_page/chongxiu_dark.png</file>
+    <file>icons/add_page/success.png</file>
+    <file>icons/add_page/warning.png</file>
+    <file>icons/add_page/chongxiu_light.png</file>
+    <file>icons/add_page/PE_dark.png</file>
+    <file>icons/add_page/PE_light.png</file>
+    <file>icons/add_page/special_dark.png</file>
+    <file>icons/add_page/special_light.png</file>
+    <file>icons/add_page/tongshi_dark.png</file>
+    <file>icons/add_page/tongshi_light.png</file>
+    <file>icons/add_page/zhuxiu_dark.png</file>
+    <file>icons/add_page/zhuxiu_light.png</file>
+    <file>icons/add_page/search.png</file>
+    <file>icons/add_page/empty.png</file>
+    <file>icons/status_bar/default_header.png</file>
+    <file>icons/left_menu/run.png</file>
+    <file>icons/status_bar/notrun.png</file>
+    <file>icons/status_bar/running.png</file>
+    <file>icons/status_bar/success.png</file>
+    <file>icons/status_bar/welcome.png</file>
+    <file>icons/left_menu/add.png</file>
+    <file>icons/warning_bar/warning.png</file>
+    <file>icons/left_menu/settings.png</file>
+    <file>icons/left_menu/homepage.png</file>
+    <file>icons/left_menu/todo.png</file>
+    <file>icons/left_menu/logo.png</file>
+    <file>icons/login/close.png</file>
+    <file>icons/login/forget.png</file>
+    <file>icons/login/checkbox.png</file>
+  </qresource>
+</RCC>

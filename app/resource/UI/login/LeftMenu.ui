@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LeftMenu</class>
+ <widget class="QWidget" name="LeftMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>200</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>200</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(4, 46, 58);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <layout class="QVBoxLayout" name="menuLayout" stretch="0,0,0,0,0,0,0,0,0,0">
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetNoConstraint</enum>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="logoLbl">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/icons/icons/left_menu/logo.png);
+border: None;
+padding-top:6px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <property name="indent">
+        <number>-1</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="Line" name="line">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>10</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="homeBtn">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+#homeBtn::indicator {
+   
+	height: 1px;
+	
+	background-color: rgba(255, 255, 255, 0);
+	
+}
+#homeBtn{
+border-radius: 5px;
+	color: rgb(214, 241, 250);
+	height: 30px;
+padding-left: 10px;
+}
+
+#homeBtn:hover{
+	border-radius: 5px;
+	border: 3px solid rgb(2, 87, 108);
+}
+
+#homeBtn:checked{
+	
+	background-color: rgb(2, 87, 108);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>主页</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../resource.qrc">
+         <normaloff>:/icons/icons/left_menu/homepage.png</normaloff>:/icons/icons/left_menu/homepage.png</iconset>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="toCourseBtn">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+::indicator {
+   
+	height: 1px;
+	
+	background-color: rgba(255, 255, 255, 0);
+	
+}
+#toCourseBtn{
+	border-radius: 5px;
+	color: rgb(214, 241, 250);
+	height: 30px;
+	padding-left: 10px;
+}
+:hover{
+	border-radius: 5px;
+	border: 3px solid rgb(2, 87, 108);
+}
+
+:checked{
+	
+	background-color: rgb(2, 87, 108);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>待选课程</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../resource.qrc">
+         <normaloff>:/icons/icons/left_menu/todo.png</normaloff>:/icons/icons/left_menu/todo.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>15</width>
+         <height>15</height>
+        </size>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="addCourseBtn">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">::indicator {
+   
+	height: 1px;
+	
+	background-color: rgba(255, 255, 255, 0);
+	
+}
+#addCourseBtn{
+	border-radius: 5px;
+	color: rgb(214, 241, 250);
+	height: 30px;
+	padding-left: 10px;
+}
+:hover{
+	border-radius: 5px;
+	border: 3px solid rgb(2, 87, 108);
+}
+
+:checked{
+	
+	background-color: rgb(2, 87, 108);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>添加课程</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../resource.qrc">
+         <normaloff>:/icons/icons/left_menu/add.png</normaloff>:/icons/icons/left_menu/add.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>15</width>
+         <height>15</height>
+        </size>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="runBtn">
+       <property name="styleSheet">
+        <string notr="true">::indicator {
+   
+	height: 1px;
+	
+	background-color: rgba(255, 255, 255, 0);
+	
+}
+#runBtn{
+	border-radius: 5px;
+	color: rgb(214, 241, 250);
+	height: 30px;
+	padding-left: 10px;
+}
+:hover{
+	border-radius: 5px;
+	border: 3px solid rgb(2, 87, 108);
+}
+
+:checked{
+	
+	background-color: rgb(2, 87, 108);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>运行抢课</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../resource.qrc">
+         <normaloff>:/icons/icons/left_menu/run.png</normaloff>:/icons/icons/left_menu/run.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>15</width>
+         <height>15</height>
+        </size>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="settingsBtn">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">::indicator {
+   
+	height: 1px;
+	
+	background-color: rgba(255, 255, 255, 0);
+	
+}
+#settingsBtn{
+	border-radius: 5px;
+	color: rgb(214, 241, 250);
+	height: 30px;
+	padding-left: 10px;
+}
+:hover{
+	border-radius: 5px;
+	border: 3px solid rgb(2, 87, 108);
+}
+
+:checked{
+	
+	background-color: rgb(2, 87, 108);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>设置中心</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../resource.qrc">
+         <normaloff>:/icons/icons/left_menu/settings.png</normaloff>:/icons/icons/left_menu/settings.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>15</width>
+         <height>15</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QFormLayout" name="formLayout">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetDefaultConstraint</enum>
+       </property>
+       <property name="labelAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="formAlignment">
+        <set>Qt::AlignHCenter|Qt::AlignTop</set>
+       </property>
+       <property name="horizontalSpacing">
+        <number>2</number>
+       </property>
+       <property name="bottomMargin">
+        <number>30</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(214, 241, 250);</string>
+         </property>
+         <property name="text">
+          <string>    Version</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(214, 241, 250);
+</string>
+         </property>
+         <property name="text">
+          <string>    Author</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_6">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(214, 241, 250);</string>
+         </property>
+         <property name="text">
+          <string>: v1.0.0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="label_7">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(214, 241, 250);</string>
+         </property>
+         <property name="text">
+          <string>: littleherozzzx</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(214, 241, 250);</string>
+         </property>
+         <property name="text">
+          <string>    Github</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="label_8">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(214, 241, 250);</string>
+         </property>
+         <property name="text">
+          <string>&lt;a href=&quot;https://github.com/LitttleHeroZZZX/HduCourseKiller&quot; style= text-decoration:none style=&quot;color: #d6f1fa&quot; font&gt;:CLICK ME!&lt;/a&gt;</string>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
