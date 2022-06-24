@@ -50,7 +50,8 @@ class Config:
             "init_params2": "http://newjw.hdu.edu.cn/jwglxt/xsxk/zzxkyzb_cxZzxkYzbDisplay.html",
             "query_course1": "http://newjw.hdu.edu.cn/jwglxt/xsxk/zzxkyzb_cxZzxkYzbPartDisplay.html",
             "query_course2": "http://newjw.hdu.edu.cn/jwglxt/xsxk/zzxkyzbjk_cxJxbWithKchZzxkYzb.html",
-            "run": "http://newjw.hdu.edu.cn/jwglxt/xsxk/zzxkyzbjk_xkBcZyZzxkYzb.html"
+            "run": "http://newjw.hdu.edu.cn/jwglxt/xsxk/zzxkyzbjk_xkBcZyZzxkYzb.html",
+            "logout": "http://newjw.hdu.edu.cn/jwglxt/logout.html",
         }
         self.session["trust_env"] = False
         self.session["verify"] = False

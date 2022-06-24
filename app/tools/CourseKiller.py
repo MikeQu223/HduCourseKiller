@@ -218,6 +218,13 @@ class Coursekiller:
     def get_course_info(self):
         return self.courses["show_info"]
 
+    def logout(self):
+        params={
+            "t": str(int(time.time()*1000)),
+            "login_type": "",
+        }
+        self.session.get(url=self.config.config["session"]["url"]["logout"], params=params)
+
     def re_login(self):
             self.set_pubKey()
             self.set_csrftoken()
@@ -244,7 +251,11 @@ class Coursekiller:
                 try:
                     res = self.session.post(url=self.config.config["session"]["url"]["run"], data=course).json()
                 except Exception as e:
+                    out1.append(f"重新登录")
+                    self.logout()
+                    out1.append(f"退出登录")
                     self.re_login()
+                    out1.append("登录成功")
                     res = self.session.post(url=self.config.config["session"]["url"]["run"], data=course).json()
                 if res["flag"] == "-1":
                     out1.append(f"{self.courses['show_info'].iloc[index]['课程名']}-{self.courses['show_info'].iloc[index]['授课教师']}-{self.courses['show_info'].iloc[index]['上课时间']}：人数已满")

@@ -22,7 +22,7 @@ class MainWindow(QMainWindow):
         self.show()
 
 
-        
+
     
     def init_login_ui(self):
         self.login = MyLogin(self)

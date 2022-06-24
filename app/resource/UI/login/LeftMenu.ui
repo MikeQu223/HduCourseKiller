@@ -437,7 +437,7 @@ padding-left: 10px;
           <string notr="true">color: rgb(214, 241, 250);</string>
          </property>
          <property name="text">
-          <string>: v1.0.0</string>
+          <string>: v1.0.1</string>
          </property>
         </widget>
        </item>

@@ -318,7 +318,7 @@ class Ui_LeftMenu(object):
         self.settingsBtn.setText(QCoreApplication.translate("LeftMenu", u"\u8bbe\u7f6e\u4e2d\u5fc3", None))
         self.label.setText(QCoreApplication.translate("LeftMenu", u"    Version", None))
         self.label_4.setText(QCoreApplication.translate("LeftMenu", u"    Author", None))
-        self.label_6.setText(QCoreApplication.translate("LeftMenu", u": v1.0.0", None))
+        self.label_6.setText(QCoreApplication.translate("LeftMenu", u": v1.0.1", None))
         self.label_7.setText(QCoreApplication.translate("LeftMenu", u": littleherozzzx", None))
         self.label_5.setText(QCoreApplication.translate("LeftMenu", u"    Github", None))
         self.label_8.setText(QCoreApplication.translate("LeftMenu", u"<a href=\"https://github.com/LitttleHeroZZZX/HduCourseKiller\" style= text-decoration:none style=\"color: #d6f1fa\" font>:CLICK ME!</a>", None))
