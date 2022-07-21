@@ -24,6 +24,7 @@ class Coursekiller:
         self.session.trust_env = self.config.config["session"]["trust_env"]
         self.session.verify = self.config.config["session"]["verify"]
         self.session.timeout = self.config.config["session"]["timeout"]
+        self.session.headers["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:103.0) Gecko/20100101 Firefox/103.0"
         # self.session.headers = self.config.config["session"]["headers"]  # 不能用这种方式设置，会报错
         self.headers = self.config.config["session"]["headers"]  # 只有在登录时要用到这个头
         self.userinfo = self.config.config["userinfo"]
