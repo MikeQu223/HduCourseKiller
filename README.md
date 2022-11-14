@@ -5,7 +5,7 @@
 2022年6月4日更新：已知使用本软件有**封号**的风险，若您仍需使用本脚本，后果自负。  
 ====
 使用本软件不能排除被封禁的风险，禁止恶意修改请求频次，以免对学校服务器造成过大压力。  
-作者([@littleherozzzx](https://github.com/LitttleHeroZZZX))对由于使用本软件导致的一切后果不承担任何责任，使用本软件的任何潜在风险均由使用者承担。  
+作者([@littleherozzzx](https://github.com/LittleHeroZZZX))对由于使用本软件导致的一切后果不承担任何责任，使用本软件的任何潜在风险均由使用者承担。  
 若在使用过程中发现问题，欢迎提issue或者邮件联系作者[zzzx@hdu.edu.cn](mailto:zzzx@hdu.edu.cn)。
 # 使用说明
 
